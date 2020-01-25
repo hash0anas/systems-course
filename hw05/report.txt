@@ -1,0 +1,13 @@
+Linux Debian 9, 3 core processors.
+
+Table: (25 million floats)
+    test            time (real)
+    local 1         25.14
+    local 4         20.51
+    local 8         18.95
+    ccis 1          23.73
+    ccis 4          17.23
+    ccis 8          14.22
+
+Optimal parallel speedup = 4
+
